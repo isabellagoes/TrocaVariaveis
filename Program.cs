@@ -1,6 +1,7 @@
 ﻿﻿string nome1, nome2, apoio;
 
 Console.WriteLine("Troca de Nomes");
+Console.WriteLine();
 
 Console.Write("Digite um nome: ");
 nome1 = Console.ReadLine()!;
