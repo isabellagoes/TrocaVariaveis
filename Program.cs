@@ -3,9 +3,9 @@
 Console.WriteLine("Troca de Nomes");
 Console.WriteLine();
 
-Console.Write("Digite um nome: ");
+Console.Write("Nome 1: ");
 nome1 = Console.ReadLine()!;
-Console.Write("Digite outro nome: ");
+Console.Write("Nome 2: ");
 nome2 = Console.ReadLine()!;
 
 apoio = nome1;
@@ -14,5 +14,5 @@ nome2 = apoio;
 
 Console.WriteLine("\nTrocando os nomes, temos:\n");
 
-Console.WriteLine($"NOME 1 = {nome1}");
-Console.WriteLine($"NOME 2 = {nome2}");
+Console.WriteLine($"Nome 1 = {nome1}");
+Console.WriteLine($"Nome 2 = {nome2}");
